@@ -1,0 +1,16 @@
+Employee Attendance & Payroll Reporting system
+-----------------------------------------
+1.Data Ingestion
+Extract data from multiple systems like lets suppose Teradata, CSV_files
+
+Ingest the raw data into Data Lake  like S3/GCS/Azure Blob etc...
+lets load data into 2 buckets
+attendance/
+&
+payroll/
+-----------------------------------------
+2.Data Processing (ETL)
+Lets use Python/ dbt / Pyspark to build the data pipelines
+
+step1- Clean and standardize source data.
+step2- Now join attendance with payroll by employee_id.

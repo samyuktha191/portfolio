@@ -1,0 +1,9 @@
+A company has two separate systems:
+System1- Attendance system: It stores employee daily check-in & check-outs timings.
+System2- Payroll system: It stores monthly salary, bonuses, and deductions.
+The HR team wants a dashboard to answer questions like below...
+How many employees are present on a given day?
+What is the average number of hours worked per employee per month and week?
+Which employees had the highest working hours?
+Cross-check salary payouts with actual attendance.
+Let us design a data architecture that provides dashboards for HR
